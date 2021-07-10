@@ -68,3 +68,8 @@ body {
 .burger:hover {
     color: rgb(207, 14, 72);
 }
+
+
+.bulb--on {
+    fill: yellow;
+}
