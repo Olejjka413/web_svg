@@ -1,0 +1,24 @@
+body {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search {
+    color: black;
+    transition:  0.2s;
+}
+
+.search:hover {
+    color: rgb(162, 17, 247);
+}
+
+
+.house {
+    color: black;
+    transition:  0.2s;
+}
+
+.house:hover {
+    color: rgb(162, 17, 247);
+}
