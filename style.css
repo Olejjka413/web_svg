@@ -1,7 +1,7 @@
 body {
-    padding-top: 150px;
-    display: flex;
-    justify-content: space-evenly;
+    padding-left: 30%;
+    padding-top: 50px;
+    
 }
 
 .search {
@@ -14,11 +14,11 @@ body {
 }
 
 
-.house {
+.homepage {
     color: black;
     transition:  0.2s;
 }
 
-.house:hover {
+.homepage:hover {
     color: rgb(162, 17, 247);
 }
