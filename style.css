@@ -1,16 +1,20 @@
 body {
-    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+    
     padding-top: 50px;
+    align-items: center;
     
 }
 
 .search {
-    color: black;
-    transition:  0.2s;
+    display: none;
+    
 }
+.house {display: none;}
 
 .search:hover {
-    color: rgb(162, 17, 247);
+    
 }
 
 
@@ -21,4 +25,46 @@ body {
 
 .homepage:hover {
     color: rgb(162, 17, 247);
+}
+
+.close__circle {
+    fill: darkseagreen;
+    color:darkslategray;
+    transition:  0.2s;
+    }
+
+.close__line {color:darkslategray;}
+
+.close__circle:hover {
+    fill: crimson;
+   
+}
+
+.burger {
+    color: rgb(134, 22, 63);
+    transition: all 0.1s;
+}
+
+.line_1,
+.line_2,
+.line_3 {
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    transition: all 0.5s;
+}
+
+.burger__active .line_1 {
+    transform: translate(0, 20px) rotate(45deg);
+}
+
+.burger__active .line_2 {
+    opacity: 0;
+}
+
+.burger__active .line_3 {
+    transform: translate(0, -20px) rotate(-45deg);
+}
+
+.burger:hover {
+    color: rgb(207, 14, 72);
 }
