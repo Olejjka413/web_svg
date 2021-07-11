@@ -17,6 +17,7 @@ body {
 
 
 
+
 .homepage {
     color: black;
     transition:  0.2s;
@@ -68,6 +69,9 @@ body {
     color: rgb(207, 14, 72);
 }
 
+.bulb { 
+    fill: rgb(29, 29, 23);
+}
 
 .bulb--on {
     fill: yellow;
@@ -75,4 +79,7 @@ body {
 
 .switch--on {
     fill: lime;
+}
+.star--on {
+    fill: yellow;
 }
