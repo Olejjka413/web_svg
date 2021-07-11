@@ -10,12 +10,11 @@ body {
 .search {
     display: none;
     
+    
 }
 .house {display: none;}
 
-.search:hover {
-    
-}
+
 
 
 .homepage {
@@ -72,4 +71,8 @@ body {
 
 .bulb--on {
     fill: yellow;
+}
+
+.switch--on {
+    fill: lime;
 }

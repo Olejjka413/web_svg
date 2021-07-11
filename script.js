@@ -1,6 +1,6 @@
 const burger = document.querySelector('.burger');
-const lightOn = document.querySelector('.switch');
-const bulb = document.querySelector('.light');
+const lightOn = document.getElementById('.switch');
+const bulb = document.getElementById('.light');
 
 const handleBurger = () => {
     burger.classList.toggle('burger__active');
@@ -12,4 +12,4 @@ const handleLightOn = () => {
 };
 
 burger.addEventListener('click', handleBurger);
-lightOn.addEventListener(`click`, handleLightOn);
+lightOn.addEventListener('click', handleLightOn);
